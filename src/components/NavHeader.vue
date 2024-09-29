@@ -17,7 +17,7 @@ const toggleDark = useToggle(isDark);
       class="w-7 h-7 bg-brand-dark dark:bg-brand-gray flex items-center justify-center p-5 rounded-xl"
     >
       <span
-        class="text-brand-gray font-semibold dark:text-brand-dark dark:font-semibold dark:text-base"
+        class="text-brand-gray font-semibold dark:text-brand-dark dark:font-semibold dark:text-base font-outfit"
         >MA</span
       >
     </div>
@@ -38,7 +38,7 @@ const toggleDark = useToggle(isDark);
       >
         <IconDownload />
         <div class="flex items-center">
-          <span class="hidden lg:flex text-brand-gray dark:text-brand-dark">
+          <span class="hidden lg:flex text-brand-gray dark:text-brand-dark font-outfit">
             Download{{ '&nbsp;' }}</span
           >
           <span>CV</span>

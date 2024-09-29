@@ -4,7 +4,7 @@ import NavHeader from '../components/NavHeader.vue';
 
 <template>
   <header
-    class="w-full overflow-x-hidden h-[5rem] flex justify-center bg-brand-gray dark:bg-brand-dark bg-opacity-70 fixed top-0 left-0 z-10 backdrop-blur-lg subpixel-antialiased"
+    class="w-full overflow-x-hidden h-[5rem] flex justify-center bg-brand-gray dark:bg-brand-dark fixed top-0 left-0 z-10 backdrop-blur-lg subpixel-antialiased"
   >
     <NavHeader />
   </header>

@@ -11,11 +11,11 @@ import MainHeader from '../components/MainHeader.vue';
   >
     <MainHeader />
     <main
-      class="w-full flex flex-col gap-10 items-center max-w-5xl px-5 xl:max-w-6xl mt-[5.5rem] border border-brand-dark"
+      class="w-full h-screen flex flex-col gap-10 items-center max-w-5xl px-5 xl:max-w-6xl mt-[5.5rem]"
     >
       <section class="w-full grid auto-rows-[172px] grid-cols-6 gap-4">
         <div
-          class="row-span-2 col-span-6 rounded-3xl bg-white relative flex flex-col overflow-hidden gap-10 justify-end p-6 dark:bg-brand-gray2 xl:col-span-4 lg:items-end sm:flex-row lg:p-10"
+          class="row-span-2 col-span-6 rounded-3xl relative flex flex-col overflow-hidden gap-10 justify-end p-6 dark:bg-brand-gray2 xl:col-span-4 lg:items-end sm:flex-row lg:p-10"
         >
           <div>
             <!-- IDEA :: PROBAR LUEGO EL GRANDIENTE  -->
@@ -29,10 +29,11 @@ import MainHeader from '../components/MainHeader.vue';
               alt="portolio picture"
             />
             <div
-              class="w-full flex flex-col z-[2] absolute left-0 bottom-0 leading-4 p-5 text-brand-gray"
+              class="w-full flex flex-col z-[2] absolute left-0 bottom-0 leading-4 p-5 text-brand-gray font-outfit"
             >
-              <span class="text-3xl font-bold leading-7">Miguel Abache</span>
-              <span class="text-lg font-medium leading-9">Full-stack Developer</span>
+              <span class="text-3xl font-bold leading-7 font-outfit">Miguel Abache</span>
+              <span class="text-lg font-medium leading-9 font-outfit">Full-Stack Developer</span>
+
               <div class="flex flex-wrap items-center gap-2 mt-1 lg:gap-3">
                 <a
                   href="https://github.com/Ab4ch3"
@@ -68,18 +69,20 @@ import MainHeader from '../components/MainHeader.vue';
         <div
           class="row-span-1 col-span-6 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 p-7 dark:bg-brand-gray2 lg:p-6 xl:col-span-2"
         >
-          <h2 class="text-xl font-bold z-[1] dark:text-brand-gray">About Me</h2>
-          <p class="text-base w-full z-[1] opacity-70 dark:text-brand-gray">
-            Hi there, thanks for visit my profile , I'm Web developer with experience in developing
-            and maintaining web applications.
+          <h2 class="text-xl font-bold z-[1] dark:text-brand-gray font-outfit">About Me</h2>
+          <p class="text-base w-full z-[1] opacity-70 dark:text-brand-gray font-outfit">
+            Hi there, thanks for visit my profile , <br />
+            I'm web developer with experience in design and maintaining web applications.
           </p>
         </div>
         <div
           class="row-span-1 col-span-3 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 items-center justify-center dark:bg-brand-gray2 xl:col-span-1"
         >
-          <p class="text-7xl z-[1] font-bold flex items-center gap-1 dark:text-brand-gray">
+          <p
+            class="text-7xl z-[1] font-bold flex items-center gap-1 dark:text-brand-gray font-outfit"
+          >
             <span>+</span>
-            <span>4</span>
+            <span>5</span>
           </p>
           <p class="text-sm font-semibold max-w-fit opacity-70 z-[1] dark:text-brand-gray">
             Years of experience
@@ -103,7 +106,7 @@ import MainHeader from '../components/MainHeader.vue';
         <div
           class="row-span-1 col-span-3 rounded-3xl bg-white dark:bg-brand-gray overflow-hidden border-2 border-transparent xl:col-span-1 flex items-center justify-center relative"
         >
-          4
+          no se aun
         </div>
       </section>
     </main>
