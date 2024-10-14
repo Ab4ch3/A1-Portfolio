@@ -69,7 +69,9 @@ import MainHeader from '../components/MainHeader.vue';
         <div
           class="row-span-1 col-span-6 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 p-7 dark:bg-brand-gray2 lg:p-6 xl:col-span-2"
         >
-          <h2 class="text-xl font-bold z-[1] dark:text-brand-gray font-outfit">About Me</h2>
+          <h2 class="text-xl font-bold z-[1] opacity-75 dark:text-brand-gray font-outfit">
+            About Me
+          </h2>
           <p class="text-base w-full z-[1] opacity-70 dark:text-brand-gray font-outfit">
             Hi there, thanks for visit my profile , <br />
             I'm web developer with experience in design and maintaining web applications.
@@ -79,7 +81,7 @@ import MainHeader from '../components/MainHeader.vue';
           class="row-span-1 col-span-3 rounded-3xl bg-white relative flex flex-col overflow-hidden border-2 border-transparent gap-2 items-center justify-center dark:bg-brand-gray2 xl:col-span-1"
         >
           <p
-            class="text-7xl z-[1] font-bold flex items-center gap-1 dark:text-brand-gray font-outfit"
+            class="text-7xl z-[1] font-bold flex items-center gap-1 dark:text-brand-gray opacity-75 font-outfit"
           >
             <span>+</span>
             <span>5</span>
