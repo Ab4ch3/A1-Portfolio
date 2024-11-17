@@ -2,12 +2,13 @@
 import IconEmail from '@/components/icons/IconEmail.vue';
 import IconGitHub from '@/components/icons/IconGitHub.vue';
 import IconLinkedIn from '@/components/icons/IconLinkedIn.vue';
+import JobSection from '../components/JobSection.vue';
 import MainHeader from '../components/MainHeader.vue';
 </script>
 
 <template>
   <div
-    class="w-full bg-brand-gray select-none subpixel-antialiased dark:bg-brand-dark flex flex-col items-center scroll-smooth gap-5 lg:gap-10 mb-10"
+    class="w-full bg-brand-gray select-none subpixel-antialiased dark:bg-brand-dark flex flex-col items-center scroll-smooth gap-5 lg:gap-10"
   >
     <MainHeader />
     <main
@@ -111,6 +112,7 @@ import MainHeader from '../components/MainHeader.vue';
           no se aun
         </div>
       </section>
+      <JobSection />
     </main>
   </div>
 </template>
